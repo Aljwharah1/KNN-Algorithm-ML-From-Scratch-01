@@ -137,35 +137,19 @@ This means **96.7% of predictions were correct**! Out of 30 test samples, the mo
 
 Here are features I can add to extend this project:
 
-1. **Visualization**
-   - Plot the decision boundary
-   - Create scatter plots of the classified points
-   - Show which neighbors were selected for a prediction
-
-2. **Performance Optimization**
+1. **Performance Optimization**
    - Test different K values and plot accuracy
    - Find the optimal K value
    - Compare performance metrics
 
-3. **More Datasets**
+2. **More Datasets**
    - Implement KNN on other datasets (MNIST, Breast Cancer, etc.)
    - Compare performance across datasets
 
-4. **Advanced Metrics**
+3. **Advanced Metrics**
    - Add precision, recall, and F1-score
    - Create a confusion matrix
    - Plot ROC curves
-
-5. **Code Enhancements**
-   - Add unit tests
-   - Handle edge cases
-   - Optimize with KD-Tree for faster neighbor search
-   - Add cross-validation
-
-6. **Distance Metrics**
-   - Implement Manhattan distance
-   - Implement Cosine similarity
-   - Compare different distance metrics
 
 
 **Happy Learning! 🚀**
