@@ -40,38 +40,10 @@ Think of it like asking your closest friends for advice—the more similar the f
 
 ---
 
-## ✅ Why This is a Classification Problem (Not Regression)
-
-**Classification vs. Regression:**
-
-| Classification | Regression |
-|---|---|
-| Predicts **categories** (discrete classes) | Predicts **continuous numbers** |
-| Example: "Is this email spam?" → Yes/No | Example: "What's the price of this house?" → $250,000 |
-| Outputs: discrete labels | Outputs: any real number |
-
-**This project uses classification** because:
-- We're predicting **flower species** (Setosa, Versicolor, Virginica)
-- The output is a **category**, not a number
-- We use **accuracy** to measure performance (% of correct predictions)
-
----
-
 ## 📊 Dataset: The Iris Dataset
 
 The **Iris dataset** is one of the most famous datasets in machine learning. It contains measurements of iris flowers.
 
-### Dataset Details:
-- **Total Samples**: 150 iris flowers
-- **Total Features**: 4 measurements per flower
-  - Sepal Length (cm)
-  - Sepal Width (cm)
-  - Petal Length (cm)
-  - Petal Width (cm)
-- **Target Classes**: 3 species
-  - Class 0: **Setosa**
-  - Class 1: **Versicolor**
-  - Class 2: **Virginica**
 
 ### Data Split:
 - **Training Data**: 120 samples (80%) — used to teach the model
@@ -152,22 +124,12 @@ This means **96.7% of predictions were correct**! Out of 30 test samples, the mo
 - Why the Euclidean distance formula works
 - The importance of the K parameter
 
-✅ **Core ML Concepts**
-- The difference between training and testing data
-- Why we split data (to avoid overfitting)
-- How to measure classification performance with accuracy
-- Majority voting and decision making
 
 ✅ **Python Programming**
 - Working with NumPy arrays
 - Using list comprehensions and loops efficiently
 - Implementing classes and methods
 - Using built-in functions like `Counter` for voting
-
-✅ **Classification vs. Regression**
-- When to use classification (categorical predictions)
-- How classification differs from regression
-- Evaluating classification models
 
 ---
 
@@ -205,24 +167,6 @@ Here are features I can add to extend this project:
    - Implement Cosine similarity
    - Compare different distance metrics
 
----
-
-## 📚 Resources & Learning Materials
-
-- [Wikipedia: K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-- [Scikit-learn KNN Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
-- [Iris Dataset Info](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-
----
-
-## ✨ Key Takeaway
-
-KNN is simple but powerful. By implementing it from scratch, I've learned that:
-- **Simple algorithms can be very effective** when applied correctly
-- **Understanding the basics is crucial** before using library implementations
-- **Distance and similarity** are fundamental concepts in machine learning
-
----
 
 **Happy Learning! 🚀**
 
